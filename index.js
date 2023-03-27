@@ -1,0 +1,1 @@
+window.alert("Made With Love And Good Wishes For My Fellow JAMBITES")

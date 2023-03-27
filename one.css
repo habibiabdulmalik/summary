@@ -1,0 +1,29 @@
+/* chapter-one */
+#chapter-1 h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-top: 2em;
+    padding: 0 1.2em;
+}
+
+#chapter-1 h1 span {
+    color: hotpink;
+}
+
+.content {
+    padding: 1em 1.6em;
+}
+
+.content p {
+    text-indent: 3%;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 1em 0;
+}
+
+@media screen and (max-width:768px) {
+    #chapter-1 p {
+        text-indent: 5%;
+    }
+}
